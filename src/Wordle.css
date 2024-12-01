@@ -1,0 +1,40 @@
+.wordle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    /* height: 600px; */
+  }
+  
+  .wordle:focus {
+    outline: none;
+  }
+  
+  .title {
+    text-transform: capitalize;
+  }
+  
+  .notification {
+    text-align: center;
+    height: 0.3rem;
+    margin: 1em;
+    color: salmon;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  
+  .notification--green {
+    color: #538d4e;
+  }
+  
+  .new-game-button{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+  }
+
+ 

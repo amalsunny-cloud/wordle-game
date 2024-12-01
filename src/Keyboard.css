@@ -1,0 +1,67 @@
+.keyboard {
+    font-size: 1.25rem;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .keyboard .keyRow {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+  
+  .keyboard .key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #818384;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-weight: 600;
+    transition: background-color 0.3s linear;
+    cursor: pointer;
+  }
+  
+  .keyboard .key--absent {
+    background-color: #3a3a3c;
+  }
+  
+  .keyboard .key--present {
+    background-color: #b59f3b;
+  }
+  
+  .keyboard .key--correct {
+    background-color: #538d4e;
+  }
+  
+  .keyboard .enter,
+  .keyboard .backspace {
+    font-size: 0.75rem;
+    width: 60px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .keyboard {
+      font-size: 1rem;
+      gap: 6px;
+    }
+  
+    .keyboard .keyRow {
+      gap: 4px;
+    }
+  
+    .keyboard .key {
+      width: 30px;
+      height: 40px;
+    }
+  
+    .keyboard .enter,
+    .keyboard .backspace {
+      font-size: 0.75rem;
+      width: 60px;
+    }
+  }
+  
