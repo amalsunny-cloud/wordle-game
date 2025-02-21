@@ -163,7 +163,7 @@ export default function Wordle() {
       }}
       onKeyDown={handleKeyDown}
     >
-      <h1 className="title">Wordle</h1>
+      <h1 className="title">Wordle Game</h1>
       <div className="score">Score: {score}</div>
       <button className="new-game-button" onClick={resetGame}>
         New Game
